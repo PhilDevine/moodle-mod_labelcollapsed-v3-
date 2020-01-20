@@ -29,7 +29,7 @@
  * Define the complete labelcollapsed structure for backup, with file and id annotations.
  */
 
-require_once("../config.php");
+require_once("../../config.php");
 require_login();
 
 class backup_labelcollapsed_activity_structure_step extends backup_activity_structure_step {
