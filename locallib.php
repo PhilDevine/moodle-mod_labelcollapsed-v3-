@@ -39,7 +39,12 @@ function labelcollapsed_get_html_content(cm_info $cm) {
     $lc = $DB->get_record('labelcollapsed', array('id' => $cm->instance));
     $intro = format_module_intro('labelcollapsed', $lc, $cm->id);
     $javastr = 'javascript:toggle(\'lcc'.$cm->instance.'\',\'lch'.$cm->instance.'\');';
-    $content .= html_writer::start_tag('h3', array('role' => 'button', 'class' => 'lc_section collapsed', 'data-toggle' => 'collapse', 'data-target' => '#lcc'.$cm->instance, 'style' => 'padding:0; margin-bottom:8px;'));
+    $content .= html_writer::start_tag('h3', array(
+        'role' => 'button',
+        'class' => 'lc_section collapsed',
+        'data-toggle' => 'collapse',
+        'data-target' => '#lcc'.$cm->instance,
+        'style' => 'padding:0; margin-bottom:8px;'));
     $secnum = $lc->labelsection;
     if ($secnum !== "") {
         $content .= html_writer::start_tag('span',
