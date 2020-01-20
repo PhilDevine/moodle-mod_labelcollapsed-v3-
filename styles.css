@@ -1,0 +1,21 @@
+h3.lc_section {
+  cursor: pointer;
+}
+
+h3.lc_section span {
+    font-weight: normal;
+}
+
+h3.lc_section.collapsed:after {
+    background: transparent url([[pix:labelcollapsed|icon-up]]) no-repeat!important;
+}
+
+h3.lc_section:after {
+    position: absolute;
+    margin-left: 8px;
+    background: transparent url([[pix:labelcollapsed|icon-down]]) no-repeat!important;
+    background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    content: " ";
+}
