@@ -20,7 +20,9 @@
  * @package    mod
  * @subpackage labelcollapsed
  * @copyright  2011 Thomas Alsén
+ * @copyright  2019 Lancaster University (http://www.lancaster.ac.uk/)
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @author     Phil Devine <p.devine@lancaster.ac.uk>
  */
 
 defined('MOODLE_INTERNAL') || die;
