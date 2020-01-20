@@ -7,15 +7,23 @@ h3.lc_section span {
 }
 
 h3.lc_section.collapsed:after {
-    background: transparent url([[pix:labelcollapsed|icon-up]]) no-repeat!important;
+    font-family: "FontAwesome";
+    font-weight: 400;
+    font-size: 36px;
+    position: absolute;
+    margin-left: 8px;
+    line-height: 32px;
+    color: darkgray;
+    content: "\f0ab";
 }
 
 h3.lc_section:after {
+    font-family: "FontAwesome";
+    font-weight: 400;
+    font-size: 36px;
     position: absolute;
     margin-left: 8px;
-    background: transparent url([[pix:labelcollapsed|icon-down]]) no-repeat!important;
-    background-position: 0 0;
-    width: 30px;
-    height: 30px;
-    content: " ";
+    line-height: 32px;
+    color: dimgray;
+    content: "\f0a9";
 }
