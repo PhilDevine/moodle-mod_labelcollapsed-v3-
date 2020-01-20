@@ -29,7 +29,7 @@
  * Structure step to restore one labelcollapsed activity
  */
 
-require_once("../config.php");
+require_once("../../config.php");
 require_login();
 
 class restore_labelcollapsed_activity_structure_step extends restore_activity_structure_step {
