@@ -95,11 +95,11 @@ function labelcollapsed_delete_instance($id) {
  * @param cm_info $cm
  */
 function labelcollapsed_cm_info_view(cm_info $cm) {
-    // global $PAGE;.
-    // $PAGE->requires->js('/mod/labelcollapsed/labelcollapsed.js');.
+
     require_once(dirname(__FILE__).'/locallib.php');
     $content = labelcollapsed_get_html_content($cm);
     $cm->set_content($content);
+
 }
 
 /**
