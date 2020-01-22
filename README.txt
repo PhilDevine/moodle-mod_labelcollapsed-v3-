@@ -2,4 +2,5 @@
 # Unzip the files to <code>/mod/labelcollapsed</code>
 # Visit the notifications page and the module will install.
 # Bootstrap version.
-# Font awesome icons
+# Font awesome icons.
+# pix folder and content not used in this version.
