@@ -17,9 +17,11 @@
 /**
  * Labelcollapsed module upgrade
  *
- * @package mod_labelcollapsed
+ * @package mod_label
  * @copyright  2006 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @subpackage mod_labelcollapsed
+ * @author Phil Devine <p.devine@lancaster.ac.uk>
  */
 
 // This file keeps track of upgrades to
