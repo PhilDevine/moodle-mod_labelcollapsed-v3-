@@ -15,9 +15,9 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Label module upgrade
+ * Labelcollapsed module upgrade
  *
- * @package mod_label
+ * @package mod_labelcollapsed
  * @copyright  2006 onwards Eloy Lafuente (stronk7) {@link http://stronk7.com}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -44,23 +44,8 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-function xmldb_label_upgrade($oldversion) {
+function xmldb_labelcollapsed_upgrade($oldversion) {
     global $CFG;
-
-    // Automatically generated Moodle v3.5.0 release upgrade line.
-    // Put any upgrade step following this.
-
-    // Automatically generated Moodle v3.6.0 release upgrade line.
-    // Put any upgrade step following this.
-
-    // Automatically generated Moodle v3.7.0 release upgrade line.
-    // Put any upgrade step following this.
-
-    // Automatically generated Moodle v3.8.0 release upgrade line.
-    // Put any upgrade step following this.
-
-    // Automatically generated Moodle v3.9.0 release upgrade line.
-    // Put any upgrade step following this.
 
     // Automatically generated Moodle v3.10.0 release upgrade line.
     // Put any upgrade step following this.
