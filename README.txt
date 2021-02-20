@@ -4,3 +4,4 @@
 # Bootstrap version.
 # Font awesome icons.
 # pix folder and content not used in this version.
+# fix for backup/restore
