@@ -5,7 +5,6 @@
  * Copyright 2013 Tom Reid
  * Released under the MIT license
  */
-//require(['jquery'], function($) {
 
     // Our plugin constructor.
     var SimpleColorPicker = function(el, opts) {
@@ -372,5 +371,3 @@
             new SimpleColorPicker(this, opts).init();
         });
     };
-
- //});
