@@ -6,4 +6,4 @@
 # pix folder and content not used in this version.
 # fix for backup/restore.
 # This version is tested and working for Moodle v 3.10.1.
-# HEX colours for colour picker can be edidted in jquery.simplecolorpicker.js
+# HEX colours for colour picker can be edidted in simplecolorpicker.js and simplecolorpicker.min.js
