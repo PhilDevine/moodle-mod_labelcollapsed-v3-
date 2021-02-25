@@ -59,7 +59,14 @@
                 {name: 'LU secondry 19', hex: 'bab6a2'},
                 {name: 'LU Red', hex: 'b5121b'},
                 {name: 'LU Grey', hex: 'bec0c2'},
-                {name: 'LU Dark Grey', hex: '555656'}
+                {name: 'LU Dark Grey', hex: '555656'},
+                {name: 'MM a', hex: '008080'},
+                {name: 'MM b', hex: 'D35400'},
+                {name: 'MM c', hex: '145A32'},
+                {name: 'MM d', hex: '5D6D7E'},
+                {name: 'MM e', hex: '006382'},
+                {name: 'MM f', hex: 'B03A2E'},
+                {name: 'MM g', hex: 'ff0000'}
             ],
             iconPos: 'right',
             aniSpeed: 50, // Slide animation speed, set to 0 for no anim.
