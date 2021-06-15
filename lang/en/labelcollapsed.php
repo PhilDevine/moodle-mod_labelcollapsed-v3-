@@ -25,7 +25,7 @@
  */
 
 $string['labelcollapsed:addinstance'] = 'Add a new collapsed label';
-$string['labelsectionnum'] = 'Section Number';
+$string['labelsectionnum'] = 'Section Number (optional)';
 $string['labelsectioncolor'] = 'Number Colour';
 $string['labelsectionBGcolor'] = 'Number BG Colour';
 $string['labelcollapsedtext'] = 'Collapsed text';
