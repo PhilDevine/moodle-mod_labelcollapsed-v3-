@@ -39,7 +39,7 @@ function labelcollapsed_get_html_content(cm_info $cm) {
     $lc = $DB->get_record('labelcollapsed', array('id' => $cm->instance));
     $intro = format_module_intro('labelcollapsed', $lc, $cm->id);
     $javastr = 'javascript:toggle(\'lcc'.$cm->instance.'\',\'lch'.$cm->instance.'\');';
-    $content .= html_writer::start_tag('h3', array(
+    $content .= html_writer::start_tag('h4', array(
         'role' => 'button',
         'class' => 'lc_section collapsed',
         'data-toggle' => 'collapse',
