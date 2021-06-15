@@ -1,12 +1,12 @@
-h3.lc_section {
+h4.lc_section {
     cursor: pointer;
 }
 
-h3.lc_section span {
+h4.lc_section span {
     font-weight: normal;
 }
 
-h3.lc_section.collapsed::after {
+h4.lc_section.collapsed::after {
     font: inherit;
     font-family: "FontAwesome";
     font-weight: 400;
@@ -15,10 +15,10 @@ h3.lc_section.collapsed::after {
     margin-left: 8px;
     line-height: 32px;
     color: darkgray;
-    content: "\f0ab";
+    content: "\f0a9";
 }
 
-h3.lc_section::after {
+h4.lc_section::after {
     font: inherit;
     font-family: "FontAwesome";
     font-weight: 400;
@@ -27,5 +27,5 @@ h3.lc_section::after {
     margin-left: 8px;
     line-height: 32px;
     color: dimgray;
-    content: "\f0a9";
+    content: "\f0ab";
 }
