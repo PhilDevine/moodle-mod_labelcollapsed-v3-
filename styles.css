@@ -1,12 +1,12 @@
-.modtype_labelcollapsed h4.lc_section {
+.modtype_labelcollapsed .lc_section {
     cursor: pointer;
 }
 
-.modtype_labelcollapsed h4.lc_section span {
+.modtype_labelcollapsed .lc_section span {
     font-weight: normal;
 }
 
-.modtype_labelcollapsed h4.lc_section.collapsed::after {
+.modtype_labelcollapsed .lc_section.collapsed::after {
     font: inherit;
     font-family: "FontAwesome";
     font-weight: 400;
@@ -18,7 +18,7 @@
     content: "\f0a9";
 }
 
-.modtype_labelcollapsed h4.lc_section::after {
+.modtype_labelcollapsed .lc_section::after {
     font: inherit;
     font-family: "FontAwesome";
     font-weight: 400;
