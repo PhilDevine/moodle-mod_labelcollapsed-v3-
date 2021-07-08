@@ -37,7 +37,9 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
     public function definition() {
         $mform = $this->_form;
         $mform->addElement('html', '<div class="form-group row  fitem">');
-        $mform->addElement('html', '<div class="col-md-3"><label for="id_sectioncolor_choice">Section Number Colour</label></div>');
+        $mform->addElement('html', '<div class="col-md-3"><label for="id_sectioncolor_choice">');
+        $mform->addElement('text', 'sectionnumcolor', get_string('labelsectionnumcolor', 'labelcollapsed'));
+        $mform->addElement('html', '</label></div>');
         $mform->addElement('html', '<div class="col-md-9 form-inline felement">');
         $mform->addElement('html',
         '<input type="text" id="id_sectioncolor_choice" name="fr_sectioncolor_choice" class="color-picker-input two" />');
@@ -48,7 +50,9 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->addElement('html', '<div class="form-group row  fitem">');
         $mform->addElement('html', '<div class="col-md-3">');
         $mform->addElement('html', '<span class="float-sm-right text-nowrap"></span>');
-        $mform->addElement('html', '<label for="id_sectionbgcolor_choice">Section Number Background Colour</label>');
+        $mform->addElement('html', '<label for="id_sectionbgcolor_choice">');
+        $mform->addElement('text', 'sectionnumBGcolor', get_string('labelsectionnumBGcolor', 'labelcollapsed'));
+        $mform->addElement('html', '</label>');
         $mform->addElement('html', '</div>');
         $mform->addElement('html', '<div class="col-md-9 form-inline felement">');
         $mform->addElement('html',
