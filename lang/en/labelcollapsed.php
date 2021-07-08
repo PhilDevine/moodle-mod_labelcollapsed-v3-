@@ -24,8 +24,10 @@
  * @author     Phil Devine <p.devine@lancaster.ac.uk>
  */
 
+$string['labelsectionnumcolor'] = 'Section Number Colour';
 $string['labelcollapsed:addinstance'] = 'Add a new collapsed label';
 $string['labelsectionnum'] = 'Section Number (optional)';
+$string['labelsectionnumBGcolor'] = 'Section Number Background Colour';
 $string['labelsectioncolor'] = 'Number Colour';
 $string['labelsectionBGcolor'] = 'Number BG Colour';
 $string['labelcollapsedtext'] = 'Collapsed text';
