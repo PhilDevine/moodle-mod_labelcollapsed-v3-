@@ -38,7 +38,7 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform = $this->_form;
         $mform->addElement('html', '<div class="form-group row  fitem">');
         $mform->addElement('html', '<div class="col-md-3"><label for="id_sectioncolor_choice">');
-        $mform->addElement('text', 'sectionnumcolor', get_string('labelsectionnumcolor', 'labelcollapsed'));
+        $mform->addElement('static', 'sectionnumcolor', get_string('labelsectionnumcolor', 'labelcollapsed'));
         $mform->addElement('html', '</label></div>');
         $mform->addElement('html', '<div class="col-md-9 form-inline felement">');
         $mform->addElement('html',
@@ -51,7 +51,7 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->addElement('html', '<div class="col-md-3">');
         $mform->addElement('html', '<span class="float-sm-right text-nowrap"></span>');
         $mform->addElement('html', '<label for="id_sectionbgcolor_choice">');
-        $mform->addElement('text', 'sectionnumBGcolor', get_string('labelsectionnumBGcolor', 'labelcollapsed'));
+        $mform->addElement('static', 'sectionnumBGcolor', get_string('labelsectionnumBGcolor', 'labelcollapsed'));
         $mform->addElement('html', '</label>');
         $mform->addElement('html', '</div>');
         $mform->addElement('html', '<div class="col-md-9 form-inline felement">');
@@ -69,9 +69,9 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->addRule('name', null, 'required', null, 'client');
         $mform->addRule('name', get_string('maximumchars', '', 50), 'maxlength', 50, 'client');
         $this->standard_intro_elements();
-        $mform->setType('labelsection', PARAM_RAW);
-        $mform->setType('sectioncolor', PARAM_RAW);
-        $mform->setType('sectionbgcolor', PARAM_RAW);
+        $mform->setType('labelsection', PARAM_TEXT);
+        $mform->setType('sectioncolor', PARAM_TEXT);
+        $mform->setType('sectionbgcolor', PARAM_TEXT);
         $mform->setType('name', PARAM_RAW);
         $mform->addElement('static', null, '',
             '<script type="text/javascript">
