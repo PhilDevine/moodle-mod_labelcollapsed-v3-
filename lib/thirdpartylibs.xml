@@ -4,7 +4,7 @@
         <location>jquery.simplecolorpicker.js</location>
         <name>jQuery Simple Color Picker</name>
         <version>1.0</version>
-        <license>MIT</license>
-        <licenseversion>2.2</licenseversion>
+        <license>GNU GPL</license>
+        <licenseversion>3.0</licenseversion>
     </library>
 </libraries>
