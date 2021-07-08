@@ -72,7 +72,7 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->setType('labelsection', PARAM_TEXT);
         $mform->setType('sectioncolor', PARAM_TEXT);
         $mform->setType('sectionbgcolor', PARAM_TEXT);
-        $mform->setType('name', PARAM_RAW);
+        $mform->setType('name', PARAM_TEXT);
         $mform->addElement('static', null, '',
             '<script type="text/javascript">
             $(document).ready(function () {
