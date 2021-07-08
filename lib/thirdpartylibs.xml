@@ -2,9 +2,9 @@
 <libraries>
     <library>
         <location>jquery.simplecolorpicker.js</location>
-        <name>simplecolorpicker</name>
-        <version>3.6.2</version>
-        <license>Apache</license>
-        <licenseversion>2.0</licenseversion>
+        <name>jQuery Simple Color Picker</name>
+        <version>1.0</version>
+        <license>MIT</license>
+        <licenseversion>2.2</licenseversion>
     </library>
 </libraries>
