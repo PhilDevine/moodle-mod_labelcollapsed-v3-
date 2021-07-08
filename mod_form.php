@@ -69,9 +69,9 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->addRule('name', null, 'required', null, 'client');
         $mform->addRule('name', get_string('maximumchars', '', 50), 'maxlength', 50, 'client');
         $this->standard_intro_elements();
-        $mform->setType('labelsection', PARAM_TEXT);
-        $mform->setType('sectioncolor', PARAM_TEXT);
-        $mform->setType('sectionbgcolor', PARAM_TEXT);
+        $mform->setType('labelsection', PARAM_RAW);
+        $mform->setType('sectioncolor', PARAM_RAW);
+        $mform->setType('sectionbgcolor', PARAM_RAW);
         $mform->setType('name', PARAM_RAW);
         $mform->addElement('static', null, '',
             '<script type="text/javascript">
