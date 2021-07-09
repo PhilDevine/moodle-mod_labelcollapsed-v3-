@@ -29,8 +29,8 @@ defined('MOODLE_INTERNAL') || die;
 require_once($CFG->dirroot.'/course/moodleform_mod.php');
 
 $PAGE->requires->jquery();
-$PAGE->requires->js('/mod/labelcollapsed/jquery.simplecolorpicker.min.js', true);
-$PAGE->requires->css('/mod/labelcollapsed/simplecolorpicker.css');
+$PAGE->requires->js('/mod/labelcollapsed/js/jquery.simplecolorpicker.min.js', true);
+$PAGE->requires->css('/mod/labelcollapsed/js/simplecolorpicker.css');
 
 class mod_labelcollapsed_mod_form extends moodleform_mod {
 
