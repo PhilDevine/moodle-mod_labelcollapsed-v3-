@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <libraries>
     <library>
-        <location>js/jquery.simplecolorpicker.js</location>
+        <location>js/colourpicker/jquery.simplecolorpicker.js</location>
         <name>jQuery Simple Color Picker</name>
         <version>1.0</version>
         <license>GNU GPL</license>
