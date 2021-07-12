@@ -24,17 +24,17 @@
  * @author     Phil Devine <p.devine@lancaster.ac.uk>
  */
 
-$string['labelsectionnumcolor'] = 'Section Number Colour';
+$string['labelsectionnumcolor'] = 'Section number colour';
 $string['labelcollapsed:addinstance'] = 'Add a new collapsed label';
-$string['labelsectionnum'] = 'Section Number (optional)';
-$string['labelsectionnumBGcolor'] = 'Section Number Background Colour';
-$string['labelsectioncolor'] = 'Number Colour';
-$string['labelsectionBGcolor'] = 'Number BG Colour';
+$string['labelsectionnum'] = 'Section number (optional)';
+$string['labelsectionnumBGcolor'] = 'Section number background colour';
+$string['labelsectioncolor'] = 'Number colour';
+$string['labelsectionBGcolor'] = 'Number bg colour';
 $string['labelcollapsedtext'] = 'Collapsed text';
-$string['labelcollapsedheader'] = 'Header Text';
-$string['modulename'] = 'Label Collapsed';
+$string['labelcollapsedheader'] = 'Header text';
+$string['modulename'] = 'Label collapsed';
 $string['modulename_help'] = 'A label collapsed enables text and images to be inserted among the activity links on the course page along with the option to prefix title text with a number (or other text) colour coded';
-$string['modulenameplural'] = 'Labels Collapsed';
-$string['pluginadministration'] = 'Label Collapsed administration';
-$string['pluginname'] = 'Label Collapsed';
-$string['privacy:metadata'] = 'The Label Collapsed resource plugin does not store any personal data.';
+$string['modulenameplural'] = 'Labels collapsed';
+$string['pluginadministration'] = 'Label collapsed administration';
+$string['pluginname'] = 'Label collapsed';
+$string['privacy:metadata'] = 'The label collapsed resource plugin does not store any personal data.';
