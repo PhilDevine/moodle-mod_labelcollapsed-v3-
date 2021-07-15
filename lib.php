@@ -95,7 +95,7 @@ function labelcollapsed_cm_info_view(cm_info $cm) {
 
     require_once(dirname(__FILE__).'/locallib.php');
     $content = labelcollapsed_get_html_content($cm);
-    $cm->set_content($content);
+    $cm->set_content($content, true);
 
 }
 
