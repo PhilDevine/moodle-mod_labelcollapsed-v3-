@@ -46,7 +46,7 @@ class mod_labelcollapsed_mod_form extends moodleform_mod {
         $mform->addElement('html', '</div>');
         $mform->addElement('html', '</div>');
         $mform->addElement('text', 'labelsection', get_string('labelsectionnum', 'labelcollapsed'));
-        $mform->addRule('labelsection', get_string('maximumchars', '', 6), 'maxlength', 6, 'client');
+        $mform->addRule('labelsection', get_string('maximumchars', '', 12), 'maxlength', 12, 'client');
         $mform->addElement('html', '<div class="form-group row  fitem">');
         $mform->addElement('html', '<div class="col-md-3">');
         $mform->addElement('html', '<span class="float-sm-right text-nowrap"></span>');
