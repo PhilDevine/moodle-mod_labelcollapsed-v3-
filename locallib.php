@@ -54,7 +54,7 @@ function labelcollapsed_get_html_content(cm_info $cm) {
         $content .= html_writer::end_tag('span');
     }
     $content .= $cm->name;
-    $content .= html_writer::end_tag('h3');
+    $content .= html_writer::end_tag('h4');
     $content .= html_writer::start_tag('div',
     array('id' => 'lcc'.$cm->instance,  'class' => 'collapse', 'style' => 'padding-top:0;'));
     $content .= $intro;
